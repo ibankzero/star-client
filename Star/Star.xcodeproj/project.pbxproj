@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BB19F91A79E09000F95978 /* StarClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F41A79E09000F95978 /* StarClient.cpp */; };
+		33BB19FA1A79E09000F95978 /* StarClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F41A79E09000F95978 /* StarClient.cpp */; };
+		33BB19FB1A79E09000F95978 /* StarMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F51A79E09000F95978 /* StarMath.cpp */; };
+		33BB19FC1A79E09000F95978 /* StarMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F51A79E09000F95978 /* StarMath.cpp */; };
+		33BB19FD1A79E09000F95978 /* StarMEM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F61A79E09000F95978 /* StarMEM.cpp */; };
+		33BB19FE1A79E09000F95978 /* StarMEM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F61A79E09000F95978 /* StarMEM.cpp */; };
+		33BB19FF1A79E09000F95978 /* StarNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F71A79E09000F95978 /* StarNet.cpp */; };
+		33BB1A001A79E09000F95978 /* StarNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F71A79E09000F95978 /* StarNet.cpp */; };
+		33BB1A011A79E09000F95978 /* StarSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F81A79E09000F95978 /* StarSystem.cpp */; };
+		33BB1A021A79E09000F95978 /* StarSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33BB19F81A79E09000F95978 /* StarSystem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		331E54CE1A77F04D0015DAB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		331E54C21A77F0340015DAB1 /* StarOSX.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarOSX.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		331E54C61A77F0340015DAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331E54D01A77F04D0015DAB1 /* libStarIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStarIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		331E550C1A7872080015DAB1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		331E550E1A7872970015DAB1 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		331E550F1A7872970015DAB1 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		33BB19EB1A79E09000F95978 /* StarClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarClient.h; sourceTree = "<group>"; };
+		33BB19EC1A79E09000F95978 /* StarMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarMath.h; sourceTree = "<group>"; };
+		33BB19ED1A79E09000F95978 /* StarMEM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarMEM.h; sourceTree = "<group>"; };
+		33BB19EE1A79E09000F95978 /* StarNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarNet.h; sourceTree = "<group>"; };
+		33BB19EF1A79E09000F95978 /* StarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarProtocol.h; sourceTree = "<group>"; };
+		33BB19F01A79E09000F95978 /* StarSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarSystem.h; sourceTree = "<group>"; };
+		33BB19F11A79E09000F95978 /* StarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StarType.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		33BB19F21A79E09000F95978 /* StarVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarVersion.h; sourceTree = "<group>"; };
+		33BB19F41A79E09000F95978 /* StarClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = StarClient.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		33BB19F51A79E09000F95978 /* StarMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarMath.cpp; sourceTree = "<group>"; };
+		33BB19F61A79E09000F95978 /* StarMEM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = StarMEM.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		33BB19F71A79E09000F95978 /* StarNet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarNet.cpp; sourceTree = "<group>"; };
+		33BB19F81A79E09000F95978 /* StarSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = StarSystem.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331E54BF1A77F0340015DAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331E54CD1A77F04D0015DAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331E54B91A77F0340015DAB1 = {
+			isa = PBXGroup;
+			children = (
+				33BB19E91A79E09000F95978 /* CoreEngine */,
+				331E550D1A7872970015DAB1 /* jni */,
+				331E550C1A7872080015DAB1 /* Makefile */,
+				331E54C41A77F0340015DAB1 /* StarOSX */,
+				331E54D11A77F04D0015DAB1 /* StarIOS */,
+				331E54C31A77F0340015DAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331E54C31A77F0340015DAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331E54C21A77F0340015DAB1 /* StarOSX.bundle */,
+				331E54D01A77F04D0015DAB1 /* libStarIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331E54C41A77F0340015DAB1 /* StarOSX */ = {
+			isa = PBXGroup;
+			children = (
+				331E54C51A77F0340015DAB1 /* Supporting Files */,
+			);
+			path = StarOSX;
+			sourceTree = "<group>";
+		};
+		331E54C51A77F0340015DAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				331E54C61A77F0340015DAB1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		331E54D11A77F04D0015DAB1 /* StarIOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StarIOS;
+			sourceTree = "<group>";
+		};
+		331E550D1A7872970015DAB1 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				331E550E1A7872970015DAB1 /* Android.mk */,
+				331E550F1A7872970015DAB1 /* Application.mk */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		33BB19E91A79E09000F95978 /* CoreEngine */ = {
+			isa = PBXGroup;
+			children = (
+				33BB19EA1A79E09000F95978 /* include */,
+				33BB19F31A79E09000F95978 /* src */,
+			);
+			name = CoreEngine;
+			path = ../CoreEngine;
+			sourceTree = "<group>";
+		};
+		33BB19EA1A79E09000F95978 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				33BB19EB1A79E09000F95978 /* StarClient.h */,
+				33BB19EC1A79E09000F95978 /* StarMath.h */,
+				33BB19ED1A79E09000F95978 /* StarMEM.h */,
+				33BB19EE1A79E09000F95978 /* StarNet.h */,
+				33BB19EF1A79E09000F95978 /* StarProtocol.h */,
+				33BB19F01A79E09000F95978 /* StarSystem.h */,
+				33BB19F11A79E09000F95978 /* StarType.h */,
+				33BB19F21A79E09000F95978 /* StarVersion.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		33BB19F31A79E09000F95978 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				33BB19F41A79E09000F95978 /* StarClient.cpp */,
+				33BB19F51A79E09000F95978 /* StarMath.cpp */,
+				33BB19F61A79E09000F95978 /* StarMEM.cpp */,
+				33BB19F71A79E09000F95978 /* StarNet.cpp */,
+				33BB19F81A79E09000F95978 /* StarSystem.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		331E55081A78713F0015DAB1 /* StarAndroid */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 331E55091A78713F0015DAB1 /* Build configuration list for PBXLegacyTarget "StarAndroid" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Zilo/Documents/___NDK/ndk-build";
+			buildWorkingDirectory = "/Users/Zilo/Documents/___STAR/StarClient/Star/jni";
+			dependencies = (
+			);
+			name = StarAndroid;
+			passBuildSettingsInEnvironment = 1;
+			productName = StarAndroid;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		331E54C11A77F0340015DAB1 /* StarOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331E54C91A77F0340015DAB1 /* Build configuration list for PBXNativeTarget "StarOSX" */;
+			buildPhases = (
+				331E54BE1A77F0340015DAB1 /* Sources */,
+				331E54BF1A77F0340015DAB1 /* Frameworks */,
+				331E54C01A77F0340015DAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarOSX;
+			productName = StarOSX;
+			productReference = 331E54C21A77F0340015DAB1 /* StarOSX.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		331E54CF1A77F04D0015DAB1 /* StarIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331E54E11A77F04D0015DAB1 /* Build configuration list for PBXNativeTarget "StarIOS" */;
+			buildPhases = (
+				331E54CC1A77F04D0015DAB1 /* Sources */,
+				331E54CD1A77F04D0015DAB1 /* Frameworks */,
+				331E54CE1A77F04D0015DAB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarIOS;
+			productName = StarIOS;
+			productReference = 331E54D01A77F04D0015DAB1 /* libStarIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331E54BA1A77F0340015DAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Zilo;
+				TargetAttributes = {
+					331E54C11A77F0340015DAB1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					331E54CF1A77F04D0015DAB1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					331E55081A78713F0015DAB1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 331E54BD1A77F0340015DAB1 /* Build configuration list for PBXProject "Star" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 331E54B91A77F0340015DAB1;
+			productRefGroup = 331E54C31A77F0340015DAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331E54C11A77F0340015DAB1 /* StarOSX */,
+				331E54CF1A77F04D0015DAB1 /* StarIOS */,
+				331E55081A78713F0015DAB1 /* StarAndroid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331E54C01A77F0340015DAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331E54BE1A77F0340015DAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BB19FD1A79E09000F95978 /* StarMEM.cpp in Sources */,
+				33BB1A011A79E09000F95978 /* StarSystem.cpp in Sources */,
+				33BB19FF1A79E09000F95978 /* StarNet.cpp in Sources */,
+				33BB19F91A79E09000F95978 /* StarClient.cpp in Sources */,
+				33BB19FB1A79E09000F95978 /* StarMath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331E54CC1A77F04D0015DAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BB19FE1A79E09000F95978 /* StarMEM.cpp in Sources */,
+				33BB1A021A79E09000F95978 /* StarSystem.cpp in Sources */,
+				33BB1A001A79E09000F95978 /* StarNet.cpp in Sources */,
+				33BB19FA1A79E09000F95978 /* StarClient.cpp in Sources */,
+				33BB19FC1A79E09000F95978 /* StarMath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		331E54C71A77F0340015DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CoreEngine/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Debug;
+		};
+		331E54C81A77F0340015DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CoreEngine/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Release;
+		};
+		331E54CA1A77F0340015DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					MAC_OS_VERSION,
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		331E54CB1A77F0340015DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = MAC_OS_VERSION;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		331E54E21A77F04D0015DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				GCC_PREPROCESSOR_DEFINITIONS = IOS_VERSION;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		331E54E31A77F04D0015DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				GCC_PREPROCESSOR_DEFINITIONS = IOS_VERSION;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331E550A1A78713F0015DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					ANDROID_VERSION,
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		331E550B1A78713F0015DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = ANDROID_VERSION;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331E54BD1A77F0340015DAB1 /* Build configuration list for PBXProject "Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331E54C71A77F0340015DAB1 /* Debug */,
+				331E54C81A77F0340015DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331E54C91A77F0340015DAB1 /* Build configuration list for PBXNativeTarget "StarOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331E54CA1A77F0340015DAB1 /* Debug */,
+				331E54CB1A77F0340015DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331E54E11A77F04D0015DAB1 /* Build configuration list for PBXNativeTarget "StarIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331E54E21A77F04D0015DAB1 /* Debug */,
+				331E54E31A77F04D0015DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331E55091A78713F0015DAB1 /* Build configuration list for PBXLegacyTarget "StarAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331E550A1A78713F0015DAB1 /* Debug */,
+				331E550B1A78713F0015DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 331E54BA1A77F0340015DAB1 /* Project object */;
+}
